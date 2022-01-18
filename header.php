@@ -13,12 +13,16 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarH">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link btn">Postuler</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link btn">Mes Projets</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link btn">Contact</a></li>
-                    <li class="nav-item"><a href ="#" class='btn btn-primary nav-link text-white fw-bold overflow'>Se Connecter</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link btn">Postuler</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link btn btn-success">Espace Etudiant</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link btn btn-primary">Espace Entreprise</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
+<style>
+    li > a{
+        color: rgba(255,255,255,.9) !important;
+    }
+</style>
