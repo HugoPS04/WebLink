@@ -3,6 +3,75 @@ body {
     box-sizing: border-box;
 }
 
+/* Icone Menu du Chat */
+.chatMenu {
+    position: fixed;
+    background-color: white;
+    top: 62px;
+    right: 0%;
+    z-index: 9999;
+}
+
+.chatMenu > a{
+    text-decoration: none;
+}
+
+.chatMenu i {
+    color: white;
+    background-color: #ff9e00;
+    border-radius: 5px 0px 0px 5px;
+    padding: 7px;
+}
+
+.chatMenu span {
+    color: white;
+    background-color: #6b84ad;
+    border-radius: 0 5px 5px 0;
+    padding: 7px;
+}
+
+
+
+/* Fin Icone ChatMenu*/
+
+/* Chat Body */
+.chat{
+    position: fixed;
+    overflow-x: hidden;
+    top: 87px;
+    right: 139px;
+    z-index: 9999;
+}
+
+.chatBody{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff9e00;
+    padding: 15px;
+    z-index: 9998;
+    border-radius: 3px;
+    transition: transform .5s ease-in-out, opacity .3s ease-out;
+
+}
+
+.chatBody.hidden {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.chat-message-in ,  .chat-message-out{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+/* Fin Chat Body */
+
 /* Bannière hero */
 
 .hero-project {
